@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Mobil uyum için ölçekleme -->
+  <title>Film Arşivi</title> <!-- Sekmede görünen başlık -->
+  <link rel="stylesheet" href="style.css" /> <!-- CSS dosyası bağlantısı -->
+</head>
+<body>
+
+  <!-- HEADER (Üst kısım) -->
+  <header>
+    <div class="wrap">
+      <h1>🎬 Film Arşivi</h1> <!-- Sayfa başlığı -->
+      <nav aria-label="Ana menü"> <!-- Menü çubuğu -->
+        <ul>
+          <li><a href="#">Ana Sayfa</a></li>
+          <li><a href="#">Filmler</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- FİLTRELER (Arama ve tür seçme alanı) -->
+  <section id="filters">
+    <div class="container">
+      <!-- Arama kutusu -->
+      <input type="text" id="search" placeholder="Film veya dizi ara..." aria-label="Film ara" />
+      
+      <!-- Film türü filtre butonları -->
+      <div id="buttons" role="tablist" aria-label="Tür filtreleri">
+        <button class="active" data-type="all" role="tab" aria-selected="true">Tümü</button>
+        <button data-type="Aksiyon" role="tab">Aksiyon</button>
+        <button data-type="Komedi" role="tab">Komedi</button>
+        <button data-type="Dram" role="tab">Dram</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- KARTLAR (Filmler burada gösterilecek) -->
+  <main class="container">
+    <!-- Sonuç sayısı bilgisi -->
+    <div id="result-info" class="container" aria-live="polite"></div>
+    
+    <!-- Film kartlarının bulunduğu bölüm -->
+    <section id="card-container" aria-label="Film kartları">
+      <!-- Kartlar JavaScript ile buraya eklenecek -->
+    </section>
+
+    <!-- Sonuç çıkmazsa gösterilecek mesaj -->
+    <div id="empty" class="empty">Sonuç bulunamadı.</div>
+  </main>
+
+  <!-- FOOTER (Alt kısım) -->
+  <footer>
+    <div class="wrap">
+      <p>© 2025 Film Arşivi</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript dosyası -->
+  <script src="script.js"></script>
+</body>
+</html>

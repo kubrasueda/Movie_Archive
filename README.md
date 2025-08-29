@@ -1,4 +1,4 @@
-#🎬 Film Arşivi
+# 🎬 Film Arşivi
 
 Bu proje basit bir film arşivi uygulamasıdır.
 HTML, CSS ve JavaScript kullanarak film/dizi kartlarını listeler, arama yapar ve türlere göre filtreler.

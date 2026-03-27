@@ -1,36 +1,17 @@
-# 🎬 Film Arşivi
+# Film Arşivi
 
-Bu proje basit bir film arşivi uygulamasıdır.
-HTML, CSS ve JavaScript kullanarak film/dizi kartlarını listeler, arama yapar ve türlere göre filtreler.
+This project is a simple movie archive web application where users can browse, search, and filter movies by category.
 
-## İçindekiler
+## About the Project
+This project is from my internship as a learning project.  
+I created the HTML structure and layout, and improved the functionality using JavaScript with the help of online resources and AI tools.
 
-index.html → Sayfanın yapısı (başlık, filtreler, film kartlarının alanı).
+## Features
+- Movie Cards → Each movie includes title, type, description, and image  
+- Search → Filter movies by title, type, or description  
+- Category Filters → Filter by Aksiyon, Komedi, Dram or view all  
+- Responsive Design → Works on mobile, tablet, and desktop  
+- Empty State → Displays a message when no results are found  
 
-style.css → Sayfanın görünümü (renkler, kart düzeni, responsive tasarım).
-
-script.js → İşlevsellik (arama, filtreleme, kartları ekrana basma).
-
-img/ → Film afişleri ve görseller.
-
-## Özellikler
-
-🎞️ Film/Dizi Kartları → Başlık, tür, açıklama ve görsel içerir.
-
-🔍 Arama Kutusu → Film adı veya açıklama ile arama yapabilirsiniz.
-
-🎭 Tür Filtreleri → Aksiyon, Komedi, Dram veya Tümü seçenekleri vardır.
-
-📱 Responsive Tasarım → Telefon, tablet ve bilgisayarda uyumlu görünür.
-
-🚫 Boş Durum Mesajı → Arama sonucu bulunamazsa mesaj gösterilir.
-
-## Nasıl Çalıştırılır?
-
-Tüm dosyaları aynı klasöre koy.
-
-index.html dosyasını tarayıcıda aç.
-
-Film listesi otomatik yüklenir.
-
-Üstten arama yapabilir veya tür butonlarına tıklayarak filtreleyebilirsin.
+## Note
+This project was developed as part of my learning process.

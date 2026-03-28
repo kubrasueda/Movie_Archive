@@ -1,4 +1,4 @@
-# Film Arşivi
+# Movie Archive
 
 This project is a simple movie archive web application where users can browse, search, and filter movies by category.
 
